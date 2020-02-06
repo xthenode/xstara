@@ -34,7 +34,7 @@ namespace xstara {
 template 
 <class TImplements = MainOpt::Implements, class TExtends = MainOpt>
 
-class _EXPORT_CLASS MainT: virtual public TImplements, public TExtends {
+class _EXPORTED_ MainT: virtual public TImplements, public TExtends {
 public:
     typedef TImplements Implements;
     typedef TExtends Extends;

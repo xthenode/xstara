@@ -41,7 +41,7 @@ typedef MainOptTExtends::Implements MainOptTImplements;
 template 
 <class TImplements = MainOptTImplements, class TExtends = MainOptTExtends>
 
-class _EXPORT_CLASS MainOptT: virtual public TImplements, public TExtends {
+class _EXPORTED_ MainOptT: virtual public TImplements, public TExtends {
 public:
     typedef TImplements Implements;
     typedef TExtends Extends;
@@ -55,7 +55,7 @@ private:
     }
 
 protected:
-}; /// class _EXPORT_CLASS MainOptT
+}; /// class _EXPORTED_ MainOptT
 typedef MainOptT<> MainOpt;
 
 } /// namespace xstara
